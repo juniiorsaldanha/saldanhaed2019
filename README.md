@@ -1,10 +1,6 @@
 # Minhas Informações: 
 
-
-
-
- 
-
+ ![image](https://user-images.githubusercontent.com/47793842/54169902-7062ac80-4453-11e9-8130-f7ce64b22a7c.png)
 - Nome: Francisco Geovan de Sousa Saldanha Júnior;
 - Matrícula: 414551;
 - Curso: EC;
