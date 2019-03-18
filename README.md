@@ -27,7 +27,7 @@
 - Aprendi a usar o #define, consegui entender um pouco mais sobre a função bool, consegui usar o argc e o argv, mas ainda não entendi muito bem como funciona, a preencher a matriz usando apenas um laço e estou começando a entender muitas coisas sobre recursão.
 - Tive muita dificuldade para conseguir fazer o labirinto, pois não estava conseguindo "furar as paredes", mas depois de algum esforço eu finalmente consegui. E principalmente para procurar a saida (a parte do código que não consegui realizar). 
 - Dediquei 2 dias para realizar o código, cerca de 2 horas e meia por dia. 
-# 04 Fractais: 
+# 04 Fractais
 # 04.1 Árvore: 
 - Consegui fazer 100% da atividade; 
 - Fiz o trabalho sozinho, consegui absorver o conteudo dado em aula e fiz o código. 
