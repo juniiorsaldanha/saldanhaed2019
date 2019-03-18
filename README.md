@@ -25,5 +25,5 @@
 - Consegui fazer aproximadamente cerca de 80% da atividade.  
 - Tentei fazer o trabalho sozinho, revendo a sua video-aula no youtube, pórem fiquei muito confuso com o tanto de informações e não consegui absorver todas. 
 - Aprendi a usar o #define, consegui entender um pouco mais sobre a função bool, consegui usar o argc e o argv, mas ainda não entendi muito bem como funciona, a preencher a matriz usando apenas um laço e estou começando a entender muitas coisas sobre recursão.
--Tive muita dificuldade para conseguir fazer o labirinto, pois não estava conseguindo "furar as paredes", mas depois de algum esforço eu finalmente consegui. E principalmente para procurar a saida (a parte do código que não consegui realizar). 
+- Tive muita dificuldade para conseguir fazer o labirinto, pois não estava conseguindo "furar as paredes", mas depois de algum esforço eu finalmente consegui. E principalmente para procurar a saida (a parte do código que não consegui realizar). 
 - Dediquei 2 dias para realizar o código, cerca de 2 horas e meia por dia. 
