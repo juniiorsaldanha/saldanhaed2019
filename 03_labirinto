@@ -48,6 +48,25 @@ void furar(int nl, int nc, char mat[nl][nc], int l, int c){
         furar(nl, nc, mat, neibs[i].l, neibs[i].c);    
 }
 
+bool find_out(int nl, int nc, char mat[nl][nc], int l, int c, int saida_l, int saida_c){
+    if(!equals(nl, nc, mat, l, c, ' '))
+        return false;
+    if(equals(nl, nc, mat, l, c, '.'))
+        return false;
+    mat[l][c] = '.'; 
+    if(mat[l][c] == mat[saida_l][saida_c]){
+    	return true; 
+    }
+  	Pos pos[] = get_neibs(l, c); 
+    for(int i = 0; i < 4; i++){
+    	if(find_out(nl, nc, mat, pos[i].l, pos[i].c, saida_l, saida_c))
+    		return true;  
+    }
+    mat[l][c] = ' '; 
+    return false; 
+
+}
+
 void show(int nl, int nc, char mat[nl][nc]){
     for(int l = 0; l < nl; l++){
         for(int c = 0; c < nc; c++){
@@ -76,5 +95,7 @@ int main(int argc, char * argv[]){
         p[i] = '#';
     furar(nl, nc, mat, 1, 1);
     printf("%d %d\n", nl, nc);
-    show(nl, nc, mat);
+    show(nl, nc, mat); 
+    find_out(nl, nc, mat, 1, 1, 2, 5); 
+	show(nl, nc, mat);    
 }
