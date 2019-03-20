@@ -22,7 +22,7 @@
 - Demorei 2 horas para finalizar o codigo. 
 
 # 03 - Labirinto: 
-- Consegui fazer aproximadamente cerca de 100% da atividade.  
+- Consegui fazer 100% da atividade.  
 - Tentei fazer o trabalho sozinho, revendo a sua video-aula no youtube, pórem ainda não consegui completar o código, pedi ajuda a um amigo que tinha conseguido e ele me ajudou a entender a função de procurar a saida.  
 - Aprendi a usar o #define, consegui entender um pouco mais sobre a função bool, consegui usar o argc e o argv, mas ainda não entendi muito bem como funciona, a preencher a matriz usando apenas um laço e estou começando a entender muitas coisas sobre recursão.
 - Tive muita dificuldade para conseguir fazer o labirinto e principalmente para fazer a função procurar_saida, mas no final deu certo.  
