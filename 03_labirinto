@@ -96,6 +96,6 @@ int main(int argc, char * argv[]){
     furar(nl, nc, mat, 1, 1);
     printf("%d %d\n", nl, nc);
     show(nl, nc, mat); 
-    find_out(nl, nc, mat, 1, 1, 2, 5); 
+    find_out(nl, nc, mat, 1, 1, nl - 2, nc - 2); 
 	show(nl, nc, mat);    
 }
