@@ -34,6 +34,12 @@
 - Estou aprendendo a usar a biblioteca xpaint.h. 
 - Tive dificuldades somente com os comandos da biblioteca, os quais estou conhecendo agora. 
 - Demorei 40 minutos para concluir a atividade.
+# 04.2 Circulos:
+- Consegui fazer 100% da atividade. 
+- Fiz o trabalho sozinho, depois de passar muito tempo pensando em como fazer, finalmente consegui.
+- Estou aprendendo a usar a biblioteca xpaint.h, aprendi bastante sobre o uso da recursão.
+- Estava tendo dificuldade com a complexidade da recursão, mas consegui resolver. 
+- Dediquei 2 dias, cerca de 3 horas no primeiro dia e 2 horas no segundo. 
 
 
 
