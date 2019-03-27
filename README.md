@@ -40,6 +40,12 @@
 - Estou aprendendo a usar a biblioteca xpaint.h, aprendi bastante sobre o uso da recursão.
 - Estava tendo dificuldade com a complexidade da recursão, mas consegui resolver. 
 - Dediquei 2 dias, cerca de 3 horas no primeiro dia e 2 horas no segundo. 
+# 04.3 Gelo: 
+- Consegui fazer 100% da atividade.
+- Fiz o trabalho sozinho, passei um bom tempo pensando na lógica, e deu certo.
+- Estou aprendendo a usar a biblioteca xpaint.h, aprendi bastante sobre o uso da recursão.
+- Estava tendo dificuldade com a complexidade da recursão, mas consegui resolver.
+- Demorei 1 hora e 30 minutos para concluir a atividade. 
 
 
 
