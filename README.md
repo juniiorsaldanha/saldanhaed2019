@@ -50,5 +50,5 @@
 - Consegui fazer 100% da atividade.
 - Fiz o trabalho sozinho, porém eu estava pensando na lógica errada e um amigo me disse a lógica certa.
 - Estou aprendendo a usar a biblioteca xpaint.h, aprendi bastante sobre o uso da recursão.
-- Estava tendo dificuldade, pois não estava pensando na forma certa de desenhar o fractal, mas depois de uma ajuda tudo fivou claro.
+- Estava tendo dificuldade, pois não estava pensando na forma certa de desenhar o fractal, mas depois de uma ajuda tudo ficou claro.
 - Demorei 2 horas e 30 minutos para concluir a atividade. 
