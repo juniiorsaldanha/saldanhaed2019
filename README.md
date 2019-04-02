@@ -52,3 +52,9 @@
 - Estou aprendendo a usar a biblioteca xpaint.h, aprendi bastante sobre o uso da recursão.
 - Estava tendo dificuldade, pois não estava pensando na forma certa de desenhar o fractal, mas depois de uma ajuda tudo ficou claro.
 - Demorei 2 horas e 30 minutos para concluir a atividade. 
+# 05.1 Decaptação Versão 1: 
+- Consegui fazer 100% da atividade. 
+- Fiz o trabalho sozinho, usei o conteudo dado em aula e consegui fazer.
+- Aprendendo a usar o c++ e lista encadeada.
+- Dificuldade em implementar a lista. 
+- Demorei 3 horas pra consluir a atividade.
