@@ -28,13 +28,8 @@ struct Lista{
         Node *node = one;
 
         while(node->next != one){
-            if(node->value == esc){
                 cout << node->value << " ";
                 node = node->next;
-            }else{
-                cout << node->value << " ";
-                node = node->next;
-            }
         }
 
         cout << "]\n";
