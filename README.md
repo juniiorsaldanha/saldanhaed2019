@@ -71,3 +71,10 @@
 - Aprendendo a usar a biblioteca xvet.h
 - Tive dificuldades em fazer a função xd_vet(), de modo que desse pra entender no video, usei o xs_pivot() e ficou massa.
 - Demorei 2 horas e meia para concluir a atividade.
+
+# 06.3 Select Sort: 
+- Consegui fazer 100% da atividade.
+- Fiz o trabalho sozinho, ja sabia usar os algoritimos de ordenação. 
+- Aprendendo a usar a biblioteca xvet.h
+- Tirei todas as duvidas na aula enquanto o professor fazia o código.
+- Demorei 40 min para concluir a atividade.
