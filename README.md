@@ -57,4 +57,17 @@
 - Fiz o trabalho sozinho, usei o conteudo dado em aula e consegui fazer.
 - Aprendendo a usar o c++ e lista encadeada.
 - Dificuldade em implementar a lista. 
-- Demorei 3 horas pra consluir a atividade.
+- Demorei 3 horas pra concluir a atividade.
+# 06.1 Bubble Sort: 
+- Consegui fazer 100% da atividade.
+- Fiz o trabalho sozinho, ja sabia usar os algoritimos de ordenação. 
+- Aprendendo a usar a biblioteca xvet.h
+- Não tive dificuldades.
+- Demorei 1 hora para concluir a atividade.
+
+# 06.2 Insertion Sort: 
+- Consegui fazer 100% da atividade.
+- Fiz o trabalho sozinho, ja sabia usar os algoritimos de ordenação. 
+- Aprendendo a usar a biblioteca xvet.h
+- Tive dificuldades em fazer a função xd_vet(), de modo que desse pra entender no video, usei o xs_pivot() e ficou massa.
+- Demorei 2 horas e meia para concluir a atividade.
