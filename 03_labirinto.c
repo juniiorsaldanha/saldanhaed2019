@@ -4,54 +4,67 @@
 #include <time.h>
 
 typedef struct _Pos{
+    int l;
+    int c;
+} Pos;
 
-	int l; 
-	int c; 
+#define get_neibs(l, c) {{l, c - 1}, {l - 1, c}, {l, c + 1}, {l + 1, c}}
 
-}Pos;
-
-#define get_neibs(l, c) {{l, c - 1}, { l - 1, c}, {l, c + 1}, {l + 1, c}}; 
-
-void Shuffle(Pos vet[], int size){
-	for (int i = 0; i < size; i++){
-		int pos = rand() % size; 
-		Pos aux = vet[i]; 
-		vet[i] = vet[pos]; 
-		vet[pos] = aux; 	
-	}
+void shuffle(Pos vet[], int size){
+    for(int i = 0; i < size; i++){
+        int pos = rand() % size;
+        Pos aux = vet[i];
+        vet[i] = vet[pos];
+        vet[pos] = aux;
+    }
 }
 
 bool equals(int nl, int nc, char mat[nl][nc], int l, int c, char value){
-	if((l < 0) || (c < 0) || (l >= nl) || (c >= nc))
-		return false; 
-	return mat[l][c] == value; 	
+    if((l < 0) || (l >= nl) || (c < 0) || (c >= nc))
+        return false;
+    return mat[l][c] == value;
 }
 
 bool eh_furavel(int nl, int nc, char mat[nl][nc], int l, int c){
-	if(!equals(nl, nc, mat, l, c, '#'))
-		return false; 
-	int cont = 0; 
-	Pos neibs[] = get_neibs(l, c); 
-
-	for(int i = 0; i < 4; i++){
-		if(equals(nl, nc, mat, neibs[i].l, neibs[i].c, '#'))
-			cont++; 
-	}
-	if(cont < 3)
-		return false; 
-	return true; 
+    if(!equals(nl, nc, mat, l, c, '#'))
+        return false;
+    int cont = 0;
+    Pos neibs[] = get_neibs(l, c);
+    for(int i = 0; i < 4; i++)
+        if(equals(nl, nc, mat, neibs[i].l, neibs[i].c, '#'))
+            cont++;
+    if(cont < 3)
+        return false;
+    return true;
 }
 
 void furar(int nl, int nc, char mat[nl][nc], int l, int c){
-	if(!eh_furavel(nl, nc, mat, l, c )){
-		return; 
-	mat[l][c] = ' '; 
-	Pos neibs[] = get_neibs(l, c); 
-	Shuffle(neibs, 4); 
-	for(int i = 0; i < 4; i++){
-		furar(nl, nc, mat, neibs[i].l, neibs[i].c); 
-	}
-	}
+    if(!eh_furavel(nl, nc, mat, l, c))
+        return;
+    mat[l][c] = ' ';
+    Pos neibs[] = get_neibs(l, c);
+    shuffle(neibs, 4);
+    for(int i = 0; i < 4; i++)
+        furar(nl, nc, mat, neibs[i].l, neibs[i].c);    
+}
+
+bool find_out(int nl, int nc, char mat[nl][nc], int l, int c, int saida_l, int saida_c){
+    if(!equals(nl, nc, mat, l, c, ' '))
+        return false;
+    if(equals(nl, nc, mat, l, c, '.'))
+        return false;
+    mat[l][c] = '.'; 
+    if(mat[l][c] == mat[saida_l][saida_c]){
+    	return true; 
+    }
+  	Pos pos[] = get_neibs(l, c); 
+    for(int i = 0; i < 4; i++){
+    	if(find_out(nl, nc, mat, pos[i].l, pos[i].c, saida_l, saida_c))
+    		return true;  
+    }
+    mat[l][c] = ' '; 
+    return false; 
+
 }
 
 void show(int nl, int nc, char mat[nl][nc]){
@@ -66,23 +79,24 @@ void show(int nl, int nc, char mat[nl][nc]){
     }
 }
 
-int main(int argc, char * argv[]) {
-	srand(time(NULL)); 
+int main(int argc, char * argv[]){
+    srand(time(NULL));
+    int nl = 10;
+    int nc = 30;
 
-	int nl = 10;
-	int nc = 30; 
+    if(argc > 2){
+        nl = atoi(argv[1]);
+        nc = atoi(argv[2]);
+    }
 
-	if(argc > 2){
-		nl = atoi(argv[1]);
-		nc = atoi(argv[2]);  
-	}
-	char mat[nl][nc]; 
-	char * p = &mat[0][0]; 
-
-	for(int i = 0; i < nl * nc; i++)
-		p[i] = '#'; 
-	
-	furar(nl, nc, mat, 1, 1); 
-	show(nl, nc, mat); 
-
+    char mat[nl][nc];
+    char * p = &mat[0][0];
+    for(int i = 0; i < nl * nc; i++)
+        p[i] = '#';
+    furar(nl, nc, mat, 1, 1);
+    printf("%d %d\n", nl, nc);
+    show(nl, nc, mat); 
+    find_out(nl, nc, mat, 1, 1, nl - 2,nc - 2);
+    puts("");  
+	show(nl, nc, mat);    
 }
