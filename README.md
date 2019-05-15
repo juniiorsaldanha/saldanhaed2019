@@ -78,3 +78,10 @@
 - Aprendendo a usar a biblioteca xvet.h
 - Tirei todas as duvidas na aula enquanto o professor fazia o código.
 - Demorei 40 min para concluir a atividade.
+
+# 08 Banco: 
+- Consegui fazer 100% da atividade. 
+- Fiz o trabalho com ajuda de um colega, pois estava com bastante dificuldade. 
+- Aprendendo a usar o vector, aprendendo bastante sobre a linguagem c++ e fila. 
+- Bastante dificuldade com o vector e um pouco com a linguagem c++.
+- Dediquei 4 dias, cerca de 2 horas por dia. 
