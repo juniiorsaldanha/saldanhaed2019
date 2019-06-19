@@ -52,12 +52,12 @@
 - Estou aprendendo a usar a biblioteca xpaint.h, aprendi bastante sobre o uso da recursão.
 - Estava tendo dificuldade, pois não estava pensando na forma certa de desenhar o fractal, mas depois de uma ajuda tudo ficou claro.
 - Demorei 2 horas e 30 minutos para concluir a atividade. 
-# 05.1 Decaptação Versão 1: 
+# 05 Princesa lista: 
 - Consegui fazer 100% da atividade. 
 - Fiz o trabalho sozinho, usei o conteudo dado em aula e consegui fazer.
 - Aprendendo a usar o c++ e lista encadeada.
 - Dificuldade em implementar a lista. 
-- Demorei 3 horas pra concluir a atividade.
+- Demorei 4 horas pra concluir a atividade.
 # 06.1 Bubble Sort: 
 - Consegui fazer 100% da atividade.
 - Fiz o trabalho sozinho, ja sabia usar os algoritimos de ordenação. 
@@ -85,3 +85,10 @@
 - Aprendendo a usar o vector, aprendendo bastante sobre a linguagem c++ e fila. 
 - Bastante dificuldade com o vector e um pouco com a linguagem c++.
 - Dediquei 4 dias, cerca de 2 horas por dia. 
+
+# 11 Arvóre HackerRank: 
+- Consegui fazer 100% da atividade. 
+- Fiz o trabalho sozinho, com ajuda do stackoverflow. 
+- Aprendi vários conceitos de arvóre, inserir, remover, printar etc. 
+- Dificuldade na questão Top View e Height.
+- Demorei cerca de 4 horas para colncluir todas as quetões.
